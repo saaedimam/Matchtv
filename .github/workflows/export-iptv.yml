@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   export:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     env:
       OUTPUT_DIR: exports
       REPOS: iptv-org/iptv,Guovin/iptv-api,HerbertHe/iptv-sources,yuanzl77/IPTV,DangJin/awesome-iptv
